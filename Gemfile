@@ -34,7 +34,7 @@ group :development do
   # https://github.com/alexch/rerun
   gem "rerun"
 
-  gem "pry"
+  gem 'pry', '~> 0.14.2'
 end
 
 # These gems will only be used when we are running tests
